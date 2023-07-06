@@ -1,0 +1,35 @@
+@use '../../styles/_variaveis' as *
+
+.cabecalho
+    align-items: center
+    display: flex
+    justify-content: space-between
+    margin: 3.75rem $espacamento-lateral 3.35rem
+
+    .cabecalho__campo
+        min-width: 250px
+        position: relative
+        width: 41%
+
+        .cabecalho__pesquisa
+            background-clip: padding-box, border-box
+            background-image: linear-gradient(#041833, #041833), radial-gradient(circle at top left, #C98CF1,#7B78E5)
+            background-origin: border-box
+            border: double 2px transparent
+            border-radius: 10px
+            color: $cor-texto-secundaria
+            font-size: $tamanho-texto-pequeno
+            font-weight: 400
+            height: 60px
+            outline: none
+            padding: 0.75rem 1rem
+            width: 100%
+
+            &::placeholder
+                color: $cor-texto-secundaria
+
+        .cabecalho__lupa
+            cursor: pointer
+            position: absolute
+            right: 18px
+            top: 14px
