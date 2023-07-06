@@ -1,0 +1,33 @@
+@use '../../styles/_variaveis' as *
+    
+.menu
+    padding: 0 $espacamento-lateral
+    width: 18%
+
+    .menu__lista
+        display: flex
+        flex-direction: column
+        gap: 2rem
+
+        .menu__link
+            align-items: center
+            color: $cor-texto-secundaria
+            display: flex
+            font-size: $tamanho-texto-medio
+            font-weight: 400
+            gap: 1.2rem
+            text-decoration: none
+
+            &--ativo
+                color: $cor-texto-destaque
+                font-weight: 700
+
+            &--ativo .menu__icone
+                background: linear-gradient(90deg, #C98CF1 0%, #7B78E5 100%)
+
+            .menu__icone
+                background-color: $cor-de-fundo
+                border-radius: 8px
+                height: 32px
+                padding: 4px
+                width: 32px
