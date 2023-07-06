@@ -29,7 +29,8 @@ export default function Menu() {
                 </li>
                 <li>
                     <a className={styles.menu__link} href="/">
-                        <img className={styles.menu__icone} src={novas} alt="Ícone de Novas" /> <p>Novas</p>
+                        <img className={styles.menu__icone} src={novas} alt="Ícone de Novas" />
+                        <p>Novas</p>
                     </a>
                 </li>
                 <li>
