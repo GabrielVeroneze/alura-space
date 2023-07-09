@@ -1,0 +1,24 @@
+@use '../../styles/_variaveis' as *
+    
+.rodape
+    align-items: center
+    background-color: $cor-de-fundo
+    display: flex
+    height: 80px
+    justify-content: space-between
+    padding: 0 $espacamento-lateral
+
+    .rodape__sociais
+        display: flex
+        gap: 2rem
+
+        .rodape__icone
+            height: 32px
+            padding: 4px
+            width: 32px
+
+    .rodape__creditos
+        color: $cor-texto-principal
+        font-family: $fonte-secundaria
+        font-size: $tamanho-texto-pequeno / 1.25
+        font-weight: 500
