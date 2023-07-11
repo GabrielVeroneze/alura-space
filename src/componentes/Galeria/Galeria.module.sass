@@ -1,6 +1,7 @@
 @use '../../styles/_variaveis' as *
     
 .galeria
+    margin-bottom: 1.75rem
     grid-area: galeria
 
     .galeria__titulo
@@ -9,3 +10,9 @@
         font-size: $tamanho-texto-grande
         line-height: normal
         margin-bottom: 1.625rem
+
+    .galeria__lista
+        display: flex
+        flex-wrap: wrap
+        gap: 1.75rem
+        justify-content: space-evenly
