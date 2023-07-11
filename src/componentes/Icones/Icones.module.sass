@@ -1,0 +1,25 @@
+@use '../../styles/_variaveis' as *
+    
+.icone
+    align-items: center
+    color: $cor-texto-secundaria
+    display: flex
+    font-family: $fonte-normal
+    font-size: $tamanho-texto-medio
+    font-weight: 400
+    gap: 1.2rem
+    text-decoration: none
+
+    &--ativo
+        color: $cor-texto-destaque
+        font-weight: 700
+
+    &--ativo .icone__imagem
+        background: linear-gradient(90deg, #C98CF1 0%, #7B78E5 100%)
+
+    .icone__imagem
+        background-color: $cor-de-fundo
+        border-radius: 8px
+        height: 32px
+        padding: 4px
+        width: 32px
