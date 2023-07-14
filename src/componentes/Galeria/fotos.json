@@ -11,14 +11,14 @@
         "creditos": "Alura Space",
         "imagem": "/assets/imagens/galeria/foto-2.png",
         "id": "2",
-        "tag": "Estrelas"
+        "tag": "Nebulosas"
     },
     {
         "titulo": "Nome da Foto",
         "creditos": "Alura Space",
         "imagem": "/assets/imagens/galeria/foto-3.png",
         "id": "3",
-        "tag": "Lua"
+        "tag": "Estrelas"
     },
     {
         "titulo": "Nome da Foto",
@@ -32,14 +32,14 @@
         "creditos": "Alura Space",
         "imagem": "/assets/imagens/galeria/foto-5.png",
         "id": "5",
-        "tag": "Estrelas"
+        "tag": "Lua"  
     },
     {
         "titulo": "Nome da Foto",
         "creditos": "Alura Space",
         "imagem": "/assets/imagens/galeria/foto-6.png",
         "id": "6",
-        "tag": "Nebulosas"
+        "tag": "Nebulosas"             
     },
     {
         "titulo": "Nome da Foto",
@@ -53,7 +53,7 @@
         "creditos": "Alura Space",
         "imagem": "/assets/imagens/galeria/foto-8.png",
         "id": "8",
-        "tag": "Nebulosas"
+        "tag": "Estrelas" 
     },
     {
         "titulo": "Nome da Foto",
