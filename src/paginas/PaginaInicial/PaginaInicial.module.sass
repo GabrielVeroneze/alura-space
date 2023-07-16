@@ -6,3 +6,9 @@
     grid-template-columns: minmax(212px, 15%) 1fr minmax(212px, 15%)
     grid-template-areas: 'menu banner banner' '. galeria populares'
     padding: 0 $espacamento-lateral
+
+@media screen and (max-width: 1024px)
+    .principal
+        gap: 3rem
+        grid-template-columns: 100%
+        grid-template-areas: 'menu' 'banner' 'galeria' 'populares'
