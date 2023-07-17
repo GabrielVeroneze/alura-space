@@ -3,6 +3,8 @@
 .tags
     align-items: center
     display: flex
+    flex-wrap: wrap
+    gap: 1rem
     justify-content: space-between
     margin-bottom: 1.875rem
 
@@ -10,11 +12,13 @@
         color: $cor-texto-secundaria
         font-family: $fonte-normal
         font-size: $tamanho-texto-medio
+        width: max-content
 
     .tags__lista
         align-items: center
         color: $cor-texto-principal
         display: flex
+        flex-wrap: wrap
         font-family: $fonte-normal
         font-size: $tamanho-texto-medio
         gap: 1rem
@@ -39,3 +43,8 @@
                 height: max-content
                 padding: 0.5rem
                 min-width: 94px
+
+@media screen and (max-width: 1024px)
+    .tags
+        .tags__lista
+            font-size: $tamanho-texto-pequeno
