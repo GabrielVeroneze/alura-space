@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+<p align="center"> <img src="https://imgur.com/KuVvd8J.png" alt="React: como os componentes funcionam"> </p>
+<p>Projeto desenvolvido durante o curso "React com JavaScript: lidando com arquivos estáticos" da Alura.</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<hr>
 
-## Available Scripts
+<h1 align="center"><img src="src/componentes/Cabecalho/logo.png" alt="Logo da Alura Space"></h1>
+<p align="center">A Alura Space é uma aplicação React que oferece uma experiência envolvente na visualização de fotos espaciais, permitindo aos usuários explorar imagens deslumbrantes do universo com eficiência e praticidade.</p>
 
-In the project directory, you can run:
+## :hammer: Funcionalidades e Recursos
 
-### `npm start`
+- `Filtrar imagens por tags`: Proporciona aos usuários a possibilidade de filtrar as imagens com base em diferentes tags, tais como estrelas, galáxias, nebulosas e outros objetos celestes.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- `Visualização de Imagens`: Os usuários têm acesso a uma galeria com vasta coleção de imagens impressionantes do universo observável, que proporcionam uma visão única do espaço sideral.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- `Navegação Intuitiva`: Foi projetada para oferecer uma experiência de usuário intuitiva, permitindo uma navegação suave e fácil entre as diferentes seções da aplicação.
 
-### `npm test`
+## :computer: Tecnologias e Ferramentas utilizadas
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img height="50px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"> | <img height="50px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg">
+| -------------------------- | ------------------------ |
+| `Componentes controlados`  | `@font-face`             |
+| `Componentes funcionais`   | `CSS Modules`            |
+| `Desestruturação de Props` | `Flexbox`                |
+| `Eventos`                  | `Grid`                   |
+| `Importação absoluta`      | `Media Queries`          |
+| `Métodos de array`         | `Normalize`              |
+| `Props`                    | `Operadores Aritméticos` |
+| `Referência dinâmica`      | `Parent Selector`        |
+| `Renderização de listas`   | `Pseudo-classes`         |
+| `Set`                      | `Responsividade`         |
+| `Spread operator`          | `Variáveis`              |
+| `useState`                 | `::-webkit-scrollbar`    |
+| `...`                      | `...`                    |
 
-### `npm run build`
+## :open_file_folder: Acesso ao projeto
+Você pode baixar o projeto diretamente:  
+[Baixar código fonte](https://github.com/GabrielVeroneze/organo-plus/archive/refs/heads/master.zip)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Também é possível clonar o repositório usando o seguinte comando:
+```
+git clone https://github.com/GabrielVeroneze/organo-plus.git
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## :clipboard: Instruções
+Para usar este projeto em seu computador localmente, você precisará seguir estas etapas:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Certifique-se de que você tem o Node.js instalado em seu computador. Se não tiver, faça o download e a instalação a partir do [site oficial](https://nodejs.org/).
 
-### `npm run eject`
+2. Abra o terminal e navegue até a pasta raiz do projeto usando o comando `cd` no terminal. Por exemplo:
+   ```
+   cd meu-projeto
+   ```
+3. Antes de iniciar a aplicação, instale as dependências necessárias executando o seguinte comando:
+   ```
+   npm install
+   ```
+&nbsp; &nbsp; &nbsp; &nbsp;Isso irá instalar todas as dependências listadas no arquivo package.json.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. Após a instalação das dependências, inicie o servidor de desenvolvimento executando o seguinte comando:
+   ```
+   npm start
+   ```
+&nbsp; &nbsp; &nbsp; &nbsp;Isso abrirá automaticamente a aplicação no seu navegador. Se não abrir, acesse o endereço http://localhost:3000.
+<br>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Demonstração Visual
+`Alterando cor dos times`
+![Organo Plus](https://imgur.com/E5ALMH5.gif)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+`Adicionando novo time`
+![Organo Plus](https://imgur.com/mLqsGfB.gif)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+`Excluindo colaborador`
+![Organo Plus](https://imgur.com/HLYf1ma.gif)
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+`Favoritando colaborador`
+![Organo Plus](https://imgur.com/2zwP0I6.gif)
