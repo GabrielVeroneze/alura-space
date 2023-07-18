@@ -1,4 +1,4 @@
-<p align="center"> <img src="https://imgur.com/KuVvd8J.png" alt="React: como os componentes funcionam"> </p>
+<p align="center"> <img src="https://imgur.com/GUdgxDe.png" alt="React com JavaScript: lidando com arquivos estáticos"> </p>
 <p>Projeto desenvolvido durante o curso "React com JavaScript: lidando com arquivos estáticos" da Alura.</p>
 
 <hr>
@@ -34,11 +34,11 @@
 
 ## :open_file_folder: Acesso ao projeto
 Você pode baixar o projeto diretamente:  
-[Baixar código fonte](https://github.com/GabrielVeroneze/organo-plus/archive/refs/heads/master.zip)
+[Baixar código fonte](https://github.com/GabrielVeroneze/alura-space/archive/refs/heads/master.zip)
 
 Também é possível clonar o repositório usando o seguinte comando:
 ```
-git clone https://github.com/GabrielVeroneze/organo-plus.git
+git clone https://github.com/GabrielVeroneze/alura-space.git
 ```
 
 ## :clipboard: Instruções
@@ -64,14 +64,11 @@ Para usar este projeto em seu computador localmente, você precisará seguir est
 <br>
 
 ## Demonstração Visual
-`Alterando cor dos times`
-![Organo Plus](https://imgur.com/E5ALMH5.gif)
+`Página inicial`
+![Alura Space](https://imgur.com/PIWRr4d.png)
 
-`Adicionando novo time`
-![Organo Plus](https://imgur.com/mLqsGfB.gif)
+`Filtrando imagens`
+![Alura Space](https://imgur.com/mLqsGfB.gif)
 
-`Excluindo colaborador`
-![Organo Plus](https://imgur.com/HLYf1ma.gif)
-
-`Favoritando colaborador`
-![Organo Plus](https://imgur.com/2zwP0I6.gif)
+`Página inicial`
+![Alura Space](https://imgur.com/vNuOpzj.png)
