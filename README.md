@@ -68,7 +68,7 @@ Para usar este projeto em seu computador localmente, você precisará seguir est
 ![Alura Space](https://imgur.com/PIWRr4d.png)
 
 `Filtrando imagens`
-![Alura Space](https://imgur.com/mLqsGfB.gif)
+![Alura Space](https://github.com/GabrielVeroneze/alura-space/assets/95183901/c46ed158-9a29-4836-8169-5b4e8429bfcc)
 
 `Página inicial`
 ![Alura Space](https://imgur.com/vNuOpzj.png)
